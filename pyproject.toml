@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cousework-4"
+version = "0.1.0"
+description = ""
+authors = ["NataliaDudina <dudina.natalja@rambler.ru>"]
+readme = "README.md"
+packages = [{include = "cousework_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
